@@ -80,6 +80,7 @@ defmodule NervesSystemRpi0BLE.MixProject do
       "fwup-revert.conf",
       "fwup.conf",
       "LICENSE",
+      "patches",
       "linux-4.4.defconfig",
       "mix.exs",
       "busybox_defconfig",

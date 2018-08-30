@@ -27,10 +27,10 @@ dtparam=i2c_arm=on,spi=on
 dtoverlay=dwc2
 
 # Enable the UART (/dev/ttyAMA0) on the RPi0.
-enable_uart=1
+# enable_uart=1
 
-# Disable the pi minuartoverlay
-#dtoverlay=pi3-miniuart-bt
+# Enable the pi minuartoverlay
+# dtoverlay=pi3-miniuart-bt
 
 # The active LED is active low instead of active high like other Raspberry Pis
 dtparam=act_led_activelow=on
